@@ -1,0 +1,72 @@
+:root {
+    /*font family*/
+    
+    --ff-brand: "Nanum Myeongjo", serif;
+    --ff-primary: "Montserrat", sans-serif;
+
+    /*font weight*/
+    
+    --fw-regular: 400;
+    --fw-bold: 600;
+
+    /*spaces*/
+
+   --space-s: 0.5rem;
+   --space-m: 1rem;
+   --space-l: 1.5rem;
+   --space-xl: 2rem;
+    
+
+
+}
+
+
+* {
+    font-family: var(--ff-primary);
+}
+
+
+.navbar-text {
+    padding-right: 1rem;
+    font-weight: 600 !important;
+    color: black !important;
+}
+
+.nav-link {
+    color: black !important;
+    font-weight: 500 !important;
+    font-size: 1.5rem !important;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color: #248341 !important;
+}
+
+.social_logos {
+    padding-left: 5px;
+    color: black !important;
+}
+
+.navbar {
+    opacity: 0.6;
+}
+
+body {
+    background-image: url(../STYLE/Images/shadows_2.jpg);
+    
+}
+
+
+.row {
+    margin: auto !important;
+}
+
+
+@media screen and (min-width: 320px) {
+     
+   .row {
+    margin-top: 20px !important;
+   }
+}

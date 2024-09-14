@@ -1,0 +1,154 @@
+
+:root {
+    /*font family*/
+    
+    --ff-brand: "Nanum Myeongjo", serif;
+    --ff-primary: "Montserrat", sans-serif;
+
+    /*font weight*/
+    
+    --fw-regular: 400;
+    --fw-bold: 600;
+
+    /*spaces*/
+
+   --space-s: 0.5rem;
+   --space-m: 1rem;
+   --space-l: 1.5rem;
+   --space-xl: 2rem;
+    
+
+
+}
+
+
+
+
+
+body {
+    background-image: url(../STYLE/Images/Shadows\ laptop.png);
+    
+}
+
+* {
+    font-family: var(--ff-primary);
+}
+
+
+.navbar-text {
+    padding-right: 1rem;
+    font-weight: 600 !important;
+    color: black !important;
+}
+
+.nav-link {
+    color: black !important;
+    font-weight: 500 !important;
+    font-size: 1.5rem !important;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color: #248341 !important;
+}
+
+.social_logos {
+    padding-left: 5px;
+    color: black !important;
+}
+
+.navbar {
+    opacity: 0.6;
+}
+
+
+
+.g-col-5-coffee, .g-col-5-food {
+    display: inline-block;
+    border: 5px solid;
+    width: 35%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.g-col-5-coffee {
+    margin-right: 5px;
+}
+
+
+.item p {
+    display: inline-block;
+    font-weight: 500;
+}
+
+.flavor {
+    text-align: left;
+    width: 75%;
+    padding-left: 40px;
+    margin-bottom: 30px;
+}
+
+.price {
+    text-align: right;
+    width: 25%;
+    padding-right: 40px;
+}
+
+h3 {
+    padding-bottom: 20px;
+    text-decoration: underline;
+}
+
+.header {
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 425px) {
+    .g-col-5-coffee {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        --bs-gap: 2rem;
+        margin-top: 1rem;
+        border-radius: 0%;
+        margin-left: 8px;
+        
+     
+    }
+
+    .g-col-5-food {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        --bs-gap: 2rem;
+        margin-top: 1rem;
+        border-radius: 0%;
+        margin-left: 8px;
+    }
+
+    body {
+       background-image: url(../STYLE/Images/Shadows\ mobile.png); 
+       
+    }
+
+    .flavor { 
+        padding-left: 30px;
+    }    
+}
+
+@media screen and (max-width: 768px) and (min-width: 768px) {
+    body {
+        background-image: url(../STYLE/Images/Shadows\ tablet.png);
+        
+    }
+
+    .g-col-5-coffee, .g-col-5-food {
+        width: 40%;
+    }
+
+   .flavor {
+        padding-left: 20px;
+    }
+}
