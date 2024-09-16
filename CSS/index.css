@@ -94,6 +94,7 @@ p {
     display: flex;
     justify-content: center;
     opacity: .9;
+    height: 450px;
 }
 
 
@@ -103,13 +104,27 @@ p {
      }
 
     #house_logo img {
-        height: 320px !important;
+        height: 220px;
+        
     } 
 
+    #house_logo {
+        height: 260px !important;
+        
+    }
+    
+    
     .navbar-toggler {
         margin-left: 15px;
     }
     
+    h1 {
+        font-size: 50px !important;
+    }
+    
+    #hours {
+        margin-top: 0;
+    }
 }
 
 
